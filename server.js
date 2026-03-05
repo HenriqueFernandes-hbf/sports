@@ -176,5 +176,5 @@ app.delete("/sports/:id", async (req, res) => {
 
 app.get("/health", (_req, res) => res.json({ ok: true }));
 
-const port = process.env.PORT || 4010;
+const port = process.env.PORT || 4000;
 app.listen(port, () => console.log(`Sports service on :${port}`));
